@@ -1,0 +1,27 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "poemsqueue",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "myblob",
+      "type": "blob",
+      "direction": "in",
+      "path": "{queueTrigger}.jpg",
+      "connection": "AzureWebJobsStorage",
+      "dataType": "binary"
+    },
+    {
+      "type": "blob",
+      "name": "outblob",
+      "path": "{queueTrigger}.txt",
+      "direction": "out",
+      "connection": "AzureWebJobsStorage"
+     }
+  ]
+}
