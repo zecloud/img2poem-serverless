@@ -1,6 +1,7 @@
 # Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training
 An implementation of the image-to-poem model described in the paper:
 "Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training."
+Accepted as the best paper of ACM MM2018.
 
 Bei Liu, Jianlong Fu, Makoto P. Kato, Masatoshi Yoshikawa
 
@@ -34,7 +35,6 @@ The Img2poem model is a deep neural network that learns how to generate poems fr
 * tensorflow1.6  
 * mxnet  
 * opencv  
-* scikit-image  
 * tqdm  
 * colorama  
 * flask
