@@ -6,7 +6,6 @@ protobuf==3.6.1
 six==1.11.0
 tensorflow==1.6
 mxnet
-scikit-image
 opencv-python-headless
 tqdm
 colorama
